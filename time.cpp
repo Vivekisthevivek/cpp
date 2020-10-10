@@ -9,7 +9,7 @@ int main()
     // Get the localtime 
     tm* tm_local = localtime(&time_ptr); 
   
-    cout << "Current gaurav local time is = "
+    cout << "Current local time is = "
          << tm_local->tm_hour << ":"
          << tm_local->tm_min << ":"
          << tm_local->tm_sec; 
